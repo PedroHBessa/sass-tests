@@ -1,0 +1,15 @@
+$alinhamento: center;
+$textalign: text-align;
+
+@mixin position($pos, $bgc:green){
+    text-align: $pos;
+    background-color: $bgc;
+}
+
+h1{
+    @include position(center, #ff0000)
+}
+
+
+
+
